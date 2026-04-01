@@ -50,9 +50,3 @@ Com esses projetos, consegui evoluir em:
 - Estruturas condicionais
 - Manipulação de strings
 - Organização do código
-
----
-
-## 📌 Observação
-
-Todos os projetos seguem o padrão de desafios de plataformas de programação, ou seja, sem entradas ou saídas extras, garantindo compatibilidade com corretores automáticos.
