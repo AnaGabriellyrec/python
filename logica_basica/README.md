@@ -1,4 +1,4 @@
-# Projeto DIO
+# Projetos DIO
 
 Projetos desenvolvidos durante meus estudos em Python, com foco em lógica de programação e resolução de problemas práticos.
 
