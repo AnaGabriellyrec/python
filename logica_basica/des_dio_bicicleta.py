@@ -15,16 +15,20 @@ class Bicicleta:
     def correr(self):
         print("Vruuuuuuuuuuuum")
 
-b1 = Bicicleta("Rosa", "Caloi", 2026, 500)
-b1.buzinar()
-b1.correr()
-b1.parar()
 
-print(f"cor: {b1.cor}")
-print(f"modelo: {b1.modelo}")
-print(f"ano: {b1.ano}")
-print(f"valor: {b1.valor}")
+    def __str__(self):
+        return f"Bicicleta: cor = {self.cor}, modelo = {self.modelo}, ano = {self.ano}, valor = {self.valor}"
+
+b1 = Bicicleta("Rosa", "Caloi", 2026, 500)
+print(b1)
+#b1.buzinar()
+#b1.correr()
+#b1.parar()
+
+#print(f"cor: {b1.cor}")
+#print(f"modelo: {b1.modelo}")
+#print(f"ano: {b1.ano}")
+#print(f"valor: {b1.valor}")
 
 b2 = Bicicleta("Azul", "Monark", 2025, 400)
-b2.buzinar()
-b2.parar()
+print(b2)
